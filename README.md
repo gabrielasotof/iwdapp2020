@@ -1,6 +1,6 @@
 # Iwdapp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
 
 ## Development server
 
@@ -16,7 +16,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 To build for github pages you must have the following packages installed globally
 
-node version 10.11.0 or up
+node version 10.13.0 or up
 https://www.npmjs.com/package/angular-cli-ghpages
 https://www.npmjs.com/package/angular
 https://www.npmjs.com/package/@angular/cli
