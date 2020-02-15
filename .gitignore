@@ -44,3 +44,6 @@ Thumbs.db
 # Backups
 src/app/common/mocks/sponsors.backup.ts
 
+
+# Local Netlify folder
+.netlify
