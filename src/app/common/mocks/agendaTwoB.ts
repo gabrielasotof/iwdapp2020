@@ -1,29 +1,29 @@
 // agenda
 export const AGENDATWO_B = [
   {
-    session: 'Principles of functional programming with examples in Java and Haskell',
-    speaker: 'Zuzanna Kruszczynska',
+    session: 'El Flutter de Hamelín',
+    speaker: 'Debora Gomez Bertoli ',
     time: '11:30 - 12:10',
-    room: 'Netcentric',
-    lang: 'EN (English/Inglés)',
+    room: 'Adevinta',
+    lang: 'Español',
     range: 2,
     isWorkshop: false
   },
   {
-    session: '@Experimental Kotlin coroutines',
-    speaker: 'Iveta Jurčíková',
+    session: 'Escalabilidad del dato" mito o reto?',
+    speaker: 'Lizzeth Quinteros Garcia',
     time: '12:15 - 12:55',
-    room: 'Netcentric',
-    lang: 'EN (English/Inglés)',
+    room: 'Adevinta',
+    lang: 'Español',
     range: 2,
     isWorkshop: false
   },
   {
-    session: 'How a Culture of Mentorship and Collaboration Makes You Grow 10x Faster',
-    speaker: 'Solange Gasengayire Umuhire',
+    session: 'Blockchain y criptografía aplicadas a la identidad digital',
+    speaker: 'Marta Bellés',
     time: '13:00 - 13:40',
-    room: 'Netcentric',
-    lang: 'EN (English/Inglés)',
+    room: 'Adevinta',
+    lang: 'Español',
     range: 2,
     isWorkshop: false
   }

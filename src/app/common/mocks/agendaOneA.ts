@@ -1,20 +1,20 @@
 // agenda
 export const AGENDAONE_A = [
   {
-    session: 'Metodología y arquitectura CSS para obtener estilos ordenados, flexibles y mantenibles a largo plazo',
-    speaker: 'Laura Rodríguez Castillo',
+    session: 'Everything you don´t need to know about Git',
+    speaker: 'Garance Vallat',
     time: '9:30 - 10:10',
-    room: 'HolaLuz',
-    lang: 'ES (Spanish/Castellano)',
+    room: 'Wallapop',
+    lang: 'English',
     range: 1,
     isWorkshop: false
   },
   {
-    session: 'Cómo hice mi juego de navegador online de cartas con websockets',
-    speaker: 'Mónica Sánchez Calzado',
+    session: 'Intelligent Tutoring Systems in Archaeology',
+    speaker: 'Laia Subirats',
     time: '10:15 - 10:55',
-    room: 'HolaLuz',
-    lang: 'ES (Spanish/Castellano)',
+    room: 'Wallapop',
+    lang: 'English',
     range: 1,
     isWorkshop: false
   }

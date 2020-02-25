@@ -18,8 +18,8 @@ export const CONFIG_VISIBILITY = {
   STAGE_BLOCK: true,
   INTRO_BLOCK: true,
   SPONSORS_BLOCK: true,
-  SPEAKERS_BLOCK: false,
-  AGENDA_BLOCK: false,
+  SPEAKERS_BLOCK: true,
+  AGENDA_BLOCK: true,
   VENUE_BLOCK: true,
   ORGANIZERS_BLOCK: false,
   COUNTDOWN_BLOCK: false

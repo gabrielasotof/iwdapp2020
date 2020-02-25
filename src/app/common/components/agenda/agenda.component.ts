@@ -24,8 +24,8 @@ export class AgendaComponent implements OnInit {
   private agendaOneB = AGENDAONE_B;
   private agendaTwoB = AGENDATWO_B;
   private agendaThreeB = AGENDATHREE_B;
-  sponsorOne = 'Holaluz';
-  sponsorTwo = 'Netcentric';
+  sponsorOne = 'Wallapop';
+  sponsorTwo = 'Adevinta';
   constructor() { }
 
   ngOnInit() {

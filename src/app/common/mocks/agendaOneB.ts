@@ -1,20 +1,20 @@
 // agenda
 export const AGENDAONE_B = [
   {
-    session: 'Focus on your code: introduction to serverless using AWS Lambda',
-    speaker: 'Magdalena Pajda',
+    session: 'Tu feedback genera bugs en producción',
+    speaker: 'Eli & Inma',
     time: '9:30 - 10:10',
-    room: 'Netcentric',
-    lang: 'EN (English/Inglés)',
+    room: 'Adevinta',
+    lang: 'Español',
     range: 1,
     isWorkshop: false
   },
   {
-    session: 'Building serverless applications with GraphQL',
-    speaker: 'Marcia Villalba',
+    session: 'Data Storytelling con Power BI: Women in Tech',
+    speaker: 'Laura Beltran',
     time: '10:15 - 10:55',
-    room: 'Netcentric',
-    lang: 'EN (English/Inglés)',
+    room: 'Adevinta',
+    lang: 'Español',
     range: 1,
     isWorkshop: false
   }

@@ -42,6 +42,12 @@
       padding-top: 0;
       background-color: $c-wtm-medium-grey;
 
+      .atomic-container {
+        @media(min-width: 675px) {
+          max-width: 90%;
+        }
+      }
+
       // tiles overrides!
       .mat-grid-tile .mat-figure {
         justify-content: left;
@@ -65,7 +71,6 @@
           }
         }
         &__hl {
-          padding-top: 0;
 
           @media(max-width: 400px) {
             padding-top: 20px;

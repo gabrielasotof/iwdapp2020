@@ -1,29 +1,29 @@
 // agenda
 export const AGENDATWO_A = [
   {
-    session: 'Aterrizando en JS: consejos para [node]sesperar en el intento',
-    speaker: 'Esther Lozano',
+    session: 'GeoSpatial Data: Analysis and Modelling',
+    speaker: 'Shreya Agrawal',
     time: '11:30 - 12:10',
-    room: 'HolaLuz',
-    lang: 'ES (Spanish/Castellano)',
+    room: 'Wallapop',
+    lang: 'English',
     range: 2,
     isWorkshop: false
   },
   {
-    session: 'Beyond cyptography',
-    speaker: 'Marta Bellés',
+    session: 'From Java using REST to Kotlin using GraphQL: A use case',
+    speaker: 'Irene Michelle Lopez Carron',
     time: '12:15 - 12:55',
-    room: 'HolaLuz',
-    lang: 'ES (Spanish/Castellano)',
+    room: 'Wallapop',
+    lang: 'English',
     range: 2,
     isWorkshop: false
   },
   {
-    session: 'Hunting threats with open source tools (INCIBE)',
-    speaker: 'Alejandra Ventura',
+    session: 'The power of RxJS: Building Flappy Bird in Angular',
+    speaker: 'Estefanía García Gallardo',
     time: '13:00 - 13:40',
-    room: 'HolaLuz',
-    lang: 'ES (Spanish/Castellano)',
+    room: 'Wallapop',
+    lang: 'English',
     range: 2,
     isWorkshop: false
   }

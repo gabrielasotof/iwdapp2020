@@ -1,22 +1,22 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <router-outlet></router-outlet>
 <header *ngIf="show_header" class="header__base">
-    <img src="assets/WT_logo_horizontal_pos_.png" class="header__logo" alt="logo of {{title}}" />
-    <h1 class="header__hl atomic-visibility--hidden">
-        Welcome to {{ title }}!
-    </h1>
-<!--     <nav class="mainnav__base">
-        <app-main-nav></app-main-nav>
-    </nav> -->
+  <img src="assets/WT_logo_horizontal_pos_.png" class="header__logo" alt="logo of {{title}}" />
+  <h1 class="header__hl atomic-visibility--hidden">
+    Welcome to {{ title }}!
+  </h1>
+  <nav class="mainnav__base">
+    <app-main-nav></app-main-nav>
+  </nav>
 </header>
 <div *ngIf="show_stage" class="stage">
-    <app-stage></app-stage>
+  <app-stage></app-stage>
 </div>
 <main class="main__base">
   <div class="main__content">
     <section class="section__base first-section" *ngIf="show_intro">
-        <app-textimage></app-textimage>
-        <section class="section__base cta atomic-background--highlight">
+      <app-textimage></app-textimage>
+      <!--         <section class="section__base cta atomic-background--highlight">
           <div class="atomic-container">
               <div class="caption__base">
                   <h2 class="textimage__hl">Apply now to our call for papers! | ¡Envía ya tu propuesta de charla!</h2>
@@ -25,90 +25,112 @@
                       <a [href]="getSafeC4PLink()" title="get free tickets" class="button__base button__base--green">{{c4p_label}}</a>
               </div>
           </div>
+        </section> -->
+      <div class="atomic-separator atomic-separator--intro">
+        <section class="section__base cta">
+          <div class="atomic-container">
+            <div class="caption__base">
+              <p class="caption__txt">Tickets are limited! Don't miss them out! Stay tuned for availability</p>
+            </div>
+            <div class="caption__base">
+              <p class="caption__txt atomic-style--italic">Las entradas son limitadas ¡No te las pierdas! Mantente al
+                tanto de nuestras noticias, para enterarte cuando abramos la disponibilidad</p>
+            </div>
+            <div class="caption__button">
+              <a [href]="getSafeTicketLink()" title="get free tickets"
+                class="button__base button__base--red">{{tickets_button_label}}</a>
+            </div>
+          </div>
         </section>
-        <div class="atomic-separator atomic-separator--intro">
-          <section class="section__base cta">
-            <div class="atomic-container">
-                <div class="caption__base">
-                    <p class="caption__txt">Tickets are limited! Don't miss them out! Stay tuned for availability</p>
-                </div>
-                <div class="caption__base">
-                    <p class="caption__txt atomic-style--italic">Las entradas son limitadas ¡No te las pierdas! Mantente al tanto de nuestras noticias, para enterarte cuando abramos la disponibilidad</p>
-                </div>
-                <div class="caption__button">
-                        <a [href]="getSafeTicketLink()" title="get free tickets" class="button__base button__base--red">{{tickets_button_label}}</a>
-                </div>
+        <section class="section__base cta">
+          <div class="atomic-container">
+            <div class="caption__base">
+              <p class="caption__txt"><b>International Women’s Day is a completely free access event</b>, and the kind
+                support of our sponsors is vital to make it possible. This is why, we would like to invite you to review
+                our sponsorship plan</p>
             </div>
-          </section>
-          <section class="section__base cta">
-            <div class="atomic-container">
-                <div class="caption__base">
-                    <p class="caption__txt"><b>International Women’s Day is a completely free access event</b>, and the kind support of our sponsors is vital to make it possible. This is why, we would like to invite you to review our sponsorship plan</p>
-                </div>
-                <div class="caption__base">
-                    <p class="caption__txt atomic-style--italic"><b>International Women’s Day es un evento completamente gratuito para los asistentes</b>, por lo que el apoyo de nuestros sponsors es vital para hacerlo posible. Les invitamos a visitar nuestra presentación para sponsors <a [href]="getSafeSponsorsDossierLink()">haciendo click aqui</a></p>
-                </div>
-                <div class="caption__button">
-                    <app-button></app-button>
-                </div>
+            <div class="caption__base">
+              <p class="caption__txt atomic-style--italic"><b>International Women’s Day es un evento completamente
+                  gratuito para los asistentes</b>, por lo que el apoyo de nuestros sponsors es vital para hacerlo
+                posible. Les invitamos a visitar nuestra presentación para sponsors <a
+                  [href]="getSafeSponsorsDossierLink()">haciendo click aqui</a></p>
             </div>
-          </section>
-        </div>
+            <div class="caption__button">
+              <app-button></app-button>
+            </div>
+          </div>
+        </section>
+      </div>
     </section>
-    <section *ngIf="show_sponsors" id="sponsors" class="section__base sponsors atomic-padding--none grid__base atomic-grid--mobile">
-        <div class="aside__base atomic-padding--small dark">
-            <div class="aside__wrapper">
-              <h2 class="aside__hl">Meet our sponsors</h2>
-              <p class="aside__txt">The following companies support our event and diversity integration in Barcelona.</p>
-              <p class="aside__txt">Thank you for making this possible!</p>
-              <h2 class="aside__hl atomic-style--italic">Conoce a nuestros sponsors</h2>
-              <p class="aside__txt atomic-style--italic">Nuestros sponsors apoyan nuestro evento y la diversidad e integración, en Barcelona. ¡Gracias por hacerlo posible!</p>
-            </div>
+    <section id="speakers" *ngIf="show_speakers"
+      class="section__base speakers atomic-padding--none grid__base grid__base--right grid__base--nomobile">
+      <div class="aside__base atomic-padding--small clear">
+        <div class="atomic-container">
+          <div>
+            <h2 class="aside__hl">Meet our awesome speakers!</h2>
+            <p class="aside__txt">Below you can find the agenda for our two tracks, one in Spanish and one in English!</p>
+          </div>
+          <div>
+            <h2 class="aside__hl atomic-style--italic">¡Conoce a nuestras ponentes!</h2>
+            <p class="aside__txt atomic-style--italic">¡Debajo encontrarás la agenda completa para nuestros dos tracks, uno
+              enespañol y otro en inglés!</p>
+          </div>
         </div>
-        <app-teaserlist [type]="teaserType.Sponsor"></app-teaserlist>
-      </section>
-      <section id="speakers" *ngIf="show_speakers" class="section__base speakers atomic-padding--none grid__base grid__base--right grid__base--nomobile">
-            <app-teaserlist [type]="teaserType.Speaker"></app-teaserlist>
-              <div class="aside__base atomic-padding--small clear">
-                <div class="atomic-container">
-                    <h2 class="aside__hl">Those are our awesome speakers!</h2>
-                    <p class="aside__txt">Below you can find the agenda for our two tracks, one in Spanish and one in English!</p>
-                    <h2 class="aside__hl atomic-style--italic">¡Esas son nuestras ponentes!</h2>
-                    <p class="aside__txt atomic-style--italic">¡Debajo encontrarás la agenda completa para nuestros dos tracks, uno enespañol y otro en inglés!</p>
-                </div>
-            </div>
-        </section>
-        <section id="agenda" *ngIf="show_agenda" class="section__base agenda atomic-padding--none grid__base grid__base--right grid__base--nomobile">
-            <app-agenda></app-agenda>
-        </section>
-        <section id="venue" *ngIf="show_venue" class="section__base atomic-padding--none">
-            <iframe [src]="getSafeVenueUrl()" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </section>
-        <section id="organizers" *ngIf="show_organizers" class="section__base organizers atomic-padding--none grid__base grid__base--right">
-             <app-teaserlist [type]="teaserType.Organizer"></app-teaserlist>
-             <div class="aside__base atomic-padding--small clear">
-                <h2 class="aside__hl">Join us!</h2>
-                <p class="aside__txt">Be part of our vibrant and active community, and participate of our meetups and other events.</p>
-                <h2 class="aside__hl atomic-style--italic">¡Únete!</h2>
-                <p class="aside__txt atomic-style--italic">Participa de una comunidad activa y vibrante, y se parte de nuestros eventos y meetups.</p>
-                <h2 class="aside__hl atomic-style--large atomic-hide">{{twitter_hastags}}</h2>
-            </div>
-        </section>
+      </div>
+      <app-teaserlist [type]="teaserType.Speaker"></app-teaserlist>
+    </section>
+    <section id="agenda" *ngIf="show_agenda"
+      class="section__base agenda atomic-padding--none grid__base grid__base--right grid__base--nomobile">
+      <app-agenda></app-agenda>
+    </section>
+    <section id="venue" *ngIf="show_venue" class="section__base atomic-padding--none">
+      <iframe [src]="getSafeVenueUrl()" width="100%" height="450" frameborder="0" style="border:0"
+        allowfullscreen></iframe>
+    </section>
+    <section *ngIf="show_sponsors" id="sponsors"
+      class="section__base sponsors atomic-padding--none grid__base atomic-grid--mobile">
+      <div class="aside__base atomic-padding--small dark">
+        <div class="aside__wrapper">
+          <h2 class="aside__hl">Meet our sponsors</h2>
+          <p class="aside__txt">The following companies support our event and diversity integration in Barcelona.</p>
+          <p class="aside__txt">Thank you for making this possible!</p>
+          <h2 class="aside__hl atomic-style--italic">Conoce a nuestros sponsors</h2>
+          <p class="aside__txt atomic-style--italic">Nuestros sponsors apoyan nuestro evento y la diversidad e
+            integración, en Barcelona. ¡Gracias por hacerlo posible!</p>
+        </div>
+      </div>
+      <app-teaserlist [type]="teaserType.Sponsor"></app-teaserlist>
+    </section>
+    <section id="organizers" *ngIf="show_organizers"
+      class="section__base organizers atomic-padding--none grid__base grid__base--right">
+      <app-teaserlist [type]="teaserType.Organizer"></app-teaserlist>
+      <div class="aside__base atomic-padding--small clear">
+        <h2 class="aside__hl">Join us!</h2>
+        <p class="aside__txt">Be part of our vibrant and active community, and participate of our meetups and other
+          events.</p>
+        <h2 class="aside__hl atomic-style--italic">¡Únete!</h2>
+        <p class="aside__txt atomic-style--italic">Participa de una comunidad activa y vibrante, y se parte de nuestros
+          eventos y meetups.</p>
+        <h2 class="aside__hl atomic-style--large atomic-hide">{{twitter_hastags}}</h2>
+      </div>
+    </section>
   </div>
 </main>
 <footer class="footer__base">
-    <div class="atomic-container">
-        <nav class="footer__nav">
-            <a class="footer__navLink twitter" href="https://twitter.com/wtmbcn"></a>
-            <a class="footer__navLink meetup" href="https://www.meetup.com/es-ES/wtmbcn/"></a>
-            <a class="footer__navLink linkedin" href="https://www.linkedin.com/company/women-techmakers-bcn/"></a>
-        </nav>
-        <div class="footer__disclaimer">
-            <span class="footer__span">©2019 · 2020 |  Made with love by @wtmbcn</span>
-            <a class="footer__link" href="mailto:womentechmakersbcn@gmail.com" title="email us!">womentechmakersbcn@gmail.com</a>
-        </div>
-        <div class="footer__disclaimer">
-            <span class="footer__span">Powered by</span><img src="assets/gdg.png" class="footer__logo" alt="Powered by GDG BCN" width="130" />
-        </div>
+  <div class="atomic-container">
+    <nav class="footer__nav">
+      <a class="footer__navLink twitter" href="https://twitter.com/wtmbcn"></a>
+      <a class="footer__navLink meetup" href="https://www.meetup.com/es-ES/wtmbcn/"></a>
+      <a class="footer__navLink linkedin" href="https://www.linkedin.com/company/women-techmakers-bcn/"></a>
+    </nav>
+    <div class="footer__disclaimer">
+      <span class="footer__span">©2019 · 2020 | Made with love by @wtmbcn</span>
+      <a class="footer__link" href="mailto:womentechmakersbcn@gmail.com"
+        title="email us!">womentechmakersbcn@gmail.com</a>
     </div>
+    <div class="footer__disclaimer">
+      <span class="footer__span">Powered by</span><img src="assets/gdg.png" class="footer__logo"
+        alt="Powered by GDG BCN" width="130" />
+    </div>
+  </div>
 </footer>

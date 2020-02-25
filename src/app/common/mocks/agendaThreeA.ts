@@ -1,20 +1,29 @@
 // agenda
 export const AGENDATHREE_A = [
   {
-    session: 'Event storming para todos',
-    speaker: 'Isabel Garrido',
-    time: '15:15 - 16:40',
-    room: 'HolaLuz',
-    lang: 'ES (Spanish/Castellano)',
+    session: 'Reinforcement Learning: from videogames to industry',
+    speaker: 'Colleen McMillon',
+    time: '15:15 - 15:55',
+    room: 'Wallapop',
+    lang: 'English',
     range: 3,
-    isWorkshop: true
+    isWorkshop: false
   },
   {
-    session: 'Videojuegos con Vue: lessons learned',
-    speaker: 'Núria Soriano',
+    session: 'A case of QA transformation and how to transfer the Quality Mindset to the Teams',
+    speaker: 'Diana Xifre & Angels Bonfill',
+    time: '16:00 - 16:40',
+    room: 'Wallapop',
+    lang: 'English',
+    range: 3,
+    isWorkshop: false
+  },
+  {
+    session: 'In pursuit of an inclusive AI',
+    speaker: 'Sara San Luís Rodríguez & Daniela Solis',
     time: '16:45 - 17:25',
-    room: 'HolaLuz',
-    lang: 'ES (Spanish/Castellano)',
+    room: 'Wallapop',
+    lang: 'English',
     range: 3,
     isWorkshop: false
   }
