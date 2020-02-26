@@ -40,10 +40,6 @@
       width: 90%;
       padding: 20px;
 
-      .teaser__figure {
-        transform: rotate(-7deg);
-      }
-
       @media(min-width: 600px) {
         display: flex;
         flex-wrap: wrap;

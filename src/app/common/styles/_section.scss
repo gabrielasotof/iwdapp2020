@@ -34,7 +34,7 @@
 
         background-color: $c-white;
         .mat-figure {
-          padding:0 10px;
+          padding: 0 10px;
         }
       }
     }
@@ -70,7 +70,7 @@
         &__figure {
           max-width: 150px;
           min-width: 150px;
-          padding-right: $safety-zone-s;
+          margin: 0 auto;
         }
         &__hl,
         &__subHl {
