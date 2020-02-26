@@ -11,7 +11,7 @@ export const AGENDATHREE_C = [
   },
   {
     session: 'Kids Workshop',
-    speaker: 'Workshops for kids 4/7 and 8/12',
+    speaker: 'Lego Maze for kids 4-7 and Do-it-Yourself Robots for kids 8-12',
     time: '16:00 - 17:30',
     room: 'ManoMano',
     lang: 'Español',
