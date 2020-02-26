@@ -56,6 +56,10 @@
 
       .teaser {
         &__image {
+          display: flex;
+          padding: $safety-zone-s;
+        }
+        &__figure {
           max-width: 150px;
           min-width: 150px;
           padding-right: $safety-zone-s;

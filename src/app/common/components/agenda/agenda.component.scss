@@ -33,6 +33,9 @@ $session-type-padding: 3px;
     width: 100%;
     box-sizing: border-box;
     padding: $agenda-padding;
+    display: flex;
+    flex-direction: column;
+
     @media (min-width: 600px) {
       width: 50%;
     }
@@ -50,6 +53,9 @@ $session-type-padding: 3px;
       background-color:$c-wtm-dark-blue;
       color: $c-white;
     }
+    &--three {
+      background-color:$c-gold;
+    }
   }
   &__label {
     font-weight: bold;
@@ -61,6 +67,7 @@ $session-type-padding: 3px;
       background-color: $c-white;
       border-bottom: 10px solid $c-wtm-light-blue;
       padding: 10px;
+      flex: 1;
     }
   }
   &__slotHl {

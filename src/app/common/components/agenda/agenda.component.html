@@ -7,6 +7,9 @@
             <div class="agenda__sponsor atomic-txtalign--center agenda__sponsor--two atomic-hide">
                 <h2 class="agenda__hl agenda__sponsor--two">{{sponsorTwo}}</h2>
             </div>
+            <div class="agenda__sponsor atomic-txtalign--center agenda__sponsor--three atomic-hide">
+              <h2 class="agenda__hl agenda__sponsor--three">{{sponsorThree}}</h2>
+          </div>
         </div>
         <div class="agenda__break atomic-txtalign--center">
           <p class="agenda__label">Opening</p>
@@ -31,6 +34,17 @@
           <div class="agenda__track agenda__track--two">
             <h2 class="agenda__hl agenda__sponsor--two atomic-txtalign--center atomic-hide--desktop">{{sponsorTwo}}</h2>
             <div class="agenda__slotWrapper" *ngFor="let item of dataFour">
+                <div class="agenda__slot">
+                  <h3 class="agenda__slotHl">{{item.session}}</h3>
+                  <p class="agenda__speaker">{{item.speaker}}</p>
+                  <p class="agenda__time"><span class="agenda__timeSlot">{{item.time}}</span><span *ngIf="item.isWorkshop" class="agenda__sessionType">Workshop</span></p>
+                  <p class="agenda__language--tag">{{item.lang}}</p>
+                </div>
+              </div>
+          </div>
+          <div class="agenda__track agenda__track--three">
+            <h2 class="agenda__hl agenda__sponsor--three atomic-txtalign--center atomic-hide--desktop">{{sponsorThree}}</h2>
+            <div class="agenda__slotWrapper" *ngFor="let item of dataSeven">
                 <div class="agenda__slot">
                   <h3 class="agenda__slotHl">{{item.session}}</h3>
                   <p class="agenda__speaker">{{item.speaker}}</p>
@@ -67,6 +81,17 @@
                   </div>
                 </div>
             </div>
+            <div class="agenda__track agenda__track--thre">
+              <h2 class="agenda__hl agenda__sponsor--three atomic-txtalign--center atomic-hide--desktop">{{sponsorThree}}</h2>
+              <div class="agenda__slotWrapper" *ngFor="let item of dataEight">
+                  <div class="agenda__slot">
+                    <h3 class="agenda__slotHl">{{item.session}}</h3>
+                    <p class="agenda__speaker">{{item.speaker}}</p>
+                    <p class="agenda__time"><span class="agenda__timeSlot">{{item.time}}</span><span *ngIf="item.isWorkshop" class="agenda__sessionType">Workshop</span></p>
+                    <p class="agenda__language--tag">{{item.lang}}</p>
+                  </div>
+                </div>
+            </div>
         </div>
         <div class="agenda__break atomic-txtalign--center">
             <p class="agenda__label atomic-strong">Lunch</p>
@@ -87,6 +112,17 @@
             <div class="agenda__track agenda__track--two">
               <h2 class="agenda__hl agenda__sponsor--two atomic-txtalign--center atomic-hide--desktop">{{sponsorTwo}}</h2>
               <div class="agenda__slotWrapper" *ngFor="let item of dataSix">
+                  <div class="agenda__slot">
+                    <h3 class="agenda__slotHl">{{item.session}}</h3>
+                    <p class="agenda__speaker">{{item.speaker}}</p>
+                    <p class="agenda__time"><span class="agenda__timeSlot">{{item.time}}</span><span *ngIf="item.isWorkshop" class="agenda__sessionType">Workshop</span></p>
+                    <p class="agenda__language--tag">{{item.lang}}</p>
+                  </div>
+                </div>
+            </div>
+            <div class="agenda__track agenda__track--three">
+              <h2 class="agenda__hl agenda__sponsor--three atomic-txtalign--center atomic-hide--desktop">{{sponsorThree}}</h2>
+              <div class="agenda__slotWrapper" *ngFor="let item of dataNine">
                   <div class="agenda__slot">
                     <h3 class="agenda__slotHl">{{item.session}}</h3>
                     <p class="agenda__speaker">{{item.speaker}}</p>

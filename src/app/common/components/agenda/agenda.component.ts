@@ -5,6 +5,9 @@ import { AGENDATHREE_A } from '../../mocks/agendaThreeA';
 import { AGENDAONE_B } from '../../mocks/agendaOneB';
 import { AGENDATWO_B } from '../../mocks/agendaTwoB';
 import { AGENDATHREE_B } from '../../mocks/agendaThreeB';
+import { AGENDAONE_C } from '../../mocks/agendaOneC';
+import { AGENDATWO_C } from '../../mocks/agendaTwoC';
+import { AGENDATHREE_C } from '../../mocks/agendaThreeC';
 
 @Component({
   selector: 'app-agenda',
@@ -18,14 +21,22 @@ export class AgendaComponent implements OnInit {
   dataFour: any = [];
   dataFive: any = [];
   dataSix: any = [];
+  dataSeven: any = [];
+  dataEight: any = [];
+  dataNine: any = [];
+
   private agendaOneA = AGENDAONE_A;
   private agendaTwoA = AGENDATWO_A;
   private agendaThreeA = AGENDATHREE_A;
   private agendaOneB = AGENDAONE_B;
   private agendaTwoB = AGENDATWO_B;
   private agendaThreeB = AGENDATHREE_B;
+  private agendaOneC = AGENDAONE_C;
+  private agendaTwoC = AGENDATWO_C;
+  private agendaThreeC = AGENDATHREE_C;
   sponsorOne = 'Wallapop';
   sponsorTwo = 'Adevinta';
+  sponsorThree = 'ManoMano';
   constructor() { }
 
   ngOnInit() {
@@ -35,5 +46,8 @@ export class AgendaComponent implements OnInit {
     this.dataFour = this.agendaOneB;
     this.dataFive = this.agendaTwoB;
     this.dataSix = this.agendaThreeB;
+    this.dataSeven = this.agendaOneC;
+    this.dataEight = this.agendaTwoC;
+    this.dataNine = this.agendaThreeC;
   }
 }

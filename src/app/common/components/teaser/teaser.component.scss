@@ -40,6 +40,10 @@
       width: 90%;
       padding: 20px;
 
+      .teaser__figure {
+        transform: rotate(-7deg);
+      }
+
       @media(min-width: 600px) {
         display: flex;
         flex-wrap: wrap;
@@ -63,12 +67,30 @@
   &__type {
     padding: 0 20px;
   }
+  &__details {
+    .teaser__txt {
+      padding-top: 20px;
+    }
+
+    &Summary {
+      padding: 10px;
+      background: white;
+      font-weight: bold;
+      color: $c-button-green;
+      transition: all 0.3s ease-in-out;
+    }
+  }
   &__extended {
     display: none;
 
     &--left {
-      .teaser__txt {
-        font-size: 14px;
+      .teaser {
+        &__hl {
+          padding: 0;
+        }
+        &__txt {
+          font-size: 14px;
+        }
       }
     }
   }
@@ -110,12 +132,7 @@
     }
 
     &Item {
-      display: flex;
       padding: 20px 0;
-
-      @media(max-width: 400px) {
-        display: block;
-      }
     }
   }
 }
