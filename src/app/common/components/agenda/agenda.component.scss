@@ -45,16 +45,14 @@ $session-type-padding: 3px;
     @media (min-width: 600px) {
       width: 50%;
     }
-    &--one {
+    &--one,
+    &--three {
       background-color: $c-wtm-green;
       color: $c-white;
     }
     &--two {
       background-color:$c-wtm-dark-blue;
       color: $c-white;
-    }
-    &--three {
-      background-color:$c-gold;
     }
   }
   &__label {
