@@ -119,5 +119,11 @@ export const SPONSORS = [
     logo: 'bcneng',
     type: 'support',
     web: 'https://bcneng.github.io/'
+  },
+  {
+    name: 'We are Adaptive',
+    logo: 'adaptive',
+    type: 'silver',
+    web: 'https://weareadaptive.com/'
   }
 ];

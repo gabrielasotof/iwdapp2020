@@ -42,6 +42,14 @@
       padding-top: 0;
       background-color: $c-wtm-medium-grey;
 
+      .aside__base {
+        .atomic-container {
+          @media(min-width: 675px) {
+            text-align: center;
+          }
+        }
+      }
+
       .atomic-container {
         @media(min-width: 675px) {
           max-width: 90%;
