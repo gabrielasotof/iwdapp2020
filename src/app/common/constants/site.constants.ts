@@ -1,6 +1,6 @@
 export const CONFIG_URLS = {
   LOGO_URL: 'assets/WT_logo_horizontal_pos_.png',
-  EVENT_BRITE_URL: '#',
+  EVENT_BRITE_URL: 'http://bit.ly/wtmbcn-tickets',
   VENUE_MAP_URL: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.6323637469445!2d2.189109415409504!3d41.40378967926268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a323988cf42f%3A0x755236f659bb1982!2sHotel+Novotel+Barcelona+City!5e0!3m2!1ses!2ses!4v1550613749720',
   SPONSORS_DOSSIER_URL: 'https://bit.ly/wtmbcn-sponsors',
   C4P_URL: 'https://docs.google.com/forms/d/1RP73NtD5lOh3NyDog7S1BAY2xJPfwPUmyclqfQZd0yw/viewform?edit_requested=true'
