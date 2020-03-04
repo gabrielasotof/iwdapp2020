@@ -101,14 +101,14 @@ export const SPEAKERS = [
   },
   {
     name: 'Eli Maruenda Joya & Inma Navas Peña',
-    session: 'Beyond cyptography',
+    session: 'Tu feedback genera bugs en producción',
     lang: '',
     pic1: 'eli',
     pic2: 'imma',
     twitter1: 'elimaruendajoya',
     twitter2: 'InmaCNavas',
     bio: 'Eli Maruenda es Software Developer en HolaLuz. Siempre le ha gustado ponerlo todo en duda y por eso le representa la frase: Pensar es pura desobediencia. Inma es Ingeniera informática que descubrió su pasión con 8 años, cuando le regalaron su primer ordenador heredado de una escuela que renovaba su material tecnológico. Actualmente trabaja como software developer en Mango. Es fan de los robots y el anime.',
-    summary: 'En esta charla queremos darle una vuelta a la cultura del feedback: ver su importancia, ver cómo nos hace crecer y como hace crecer a las organizaciones, los proyectos y el producto, pero también de toxicidad, de ciclos de feedback y de por qué creemos que está directamente relacionado con bugs en producción. Dar y/o recibir feedback es fácil, pero saber hacerlo no tanto.',
+    summary: 'La comunicación en las organizaciones es vital. Trabajamos en equipo y el feedback es una herramienta muy poderosa para crecer colectiva e individualmente. Pero, un gran poder conlleva una gran responsabilidad, ¿no? Un mal uso, puede llegar a ser algo banal o incluso tóxico. ¿Dónde está el "seniority" en dar feedback? Nos resulta difícil encontrar dónde o cuándo nos han dado herramientas o formación para recibir y/o dar feedback. ¿Por qué nos formamos técnicamente pero olvidamos hacerlo en soft skills? Creemos que, además, el feedback está directamente relacionado con bugs en producción: Loops de feedback largos, confianza en los equipos, confianza en nosotros mismos,... En esta charla queremos darle una vuelta a la cultura del feedback: ver su importancia, ver cómo nos hace crecer y como hace crecer a las organizaciones, los proyectos y el producto, pero también de toxicidad, de ciclos de feedback y de por qué creemos que está directamente relacionado con bugs en producción. Dar y/o recibir feedback es fácil, pero saber hacerlo no tanto.',
     linkedin1: ''
   },
   {
