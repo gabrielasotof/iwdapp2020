@@ -89,7 +89,7 @@ export const SPEAKERS = [
     linkedin1: 'https://www.linkedin.com/in/mariavivesmontero/'
   },
   {
-    name: 'Lizzeth Quinteros Garcia',
+    name: 'Lizzeth Quinteros García',
     session: '"Escalabilidad del dato" mito o reto?',
     lang: '',
     pic1: 'lizzeth',
@@ -169,7 +169,7 @@ export const SPEAKERS = [
     linkedin1: ''
   },
   {
-    name: 'Ana Maria Garcia',
+    name: 'Ana Maria García',
     session: 'Stop Calling Everything a Mock! Learn Test Doubles',
     lang: '',
     pic1: 'oterinoa',
