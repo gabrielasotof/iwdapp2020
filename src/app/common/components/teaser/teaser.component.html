@@ -14,7 +14,7 @@
               <div class="teaser__type">
                   <h3 class="teaser__hl">{{item.name}}</h3>
                   <a *ngIf="item.twitter1 && item.twitter1 !== ''" href="https://www.twitter.com/{{item.twitter1}}" class="teaser__social atomic--twitter"><span>@</span>{{item.twitter1}}</a>
-                  <a *ngIf="item.twitter2 && item.twitter2 !== ''" href="https://www.twitter.com/{{item.twitter2}}" class="teaser__social atomic--twitter"><span>@</span> | {{item.twitter2}}</a>
+                  <a *ngIf="item.twitter2 && item.twitter2 !== ''" href="https://www.twitter.com/{{item.twitter2}}" class="teaser__social atomic--twitter"><span> | @</span>{{item.twitter2}}</a>
                   <a *ngIf="item.linkedin1 && item.linkedin1 !== ''" href="{{item.linkedin1}}" class="teaser__social atomic--twitter">LinkedIn</a>
                   <a *ngIf="item.linkedin2 && item.linkedin2 !== ''" href="{{item.linkedin2}}" class="teaser__social atomic--twitter"> | LinkedIn</a>
                   <details class="teaser__details">
