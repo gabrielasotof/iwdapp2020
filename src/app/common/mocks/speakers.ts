@@ -12,6 +12,17 @@ export const SPEAKERS = [
     linkedin1: ''
   },
   {
+    name: 'Colleen McMillon',
+    session: 'Reinforcement Learning: from videogames to industry',
+    lang: '',
+    bio: 'Colleen McMillon received her Bachelor´s Degree in Mathematics and German at the University of Texas at Austin and her Master´s Degree in Statistical-Computational Information Processing at the Polytechnic University of Madrid. She currently works as a Data Scientiest at Treelogic and has participated in various types of projects, including reinforcement learning, time series prediction, client churn prediction and predictive maintenance.',
+    summary: 'In the talk we will cover the fundamental ideas and definitions of reinforcement learning, the ways in which it is used currently (including videogrames) and finally over its application in a concrete case, in which we used reinforcement learning to solve a problem for a major steelmaking manufacturer. Reinforcement learning (RL) is one of the branches of machine learning, along with supervised and unsupervised learning. RL is based on the idea of learning through trial and error, measuring its ability to learn through rewards. It is particularly useful in cases where one needs to automate or optimize a process, learn a sequence of decisions, and there is the possibility of constructing a simulation of the process.  Currently there are many examples of the application of RL in videgames. In the talk, we will present some examples of the use of RL in videgames in order to show how RL works. Afterwards we will present its potential and application in a real environment in order to optimize an industrial process.',
+    pic1: 'colleen',
+    pic2: '',
+    twitter1: '',
+    linkedin1: 'linkedin.com/in/colleen-mcmillon-512162a'
+  },
+  {
     name: 'Marta Bellés',
     session: 'Blockchain y criptografía aplicadas a la identidad digital',
     lang: '',
