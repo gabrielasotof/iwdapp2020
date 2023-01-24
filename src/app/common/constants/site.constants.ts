@@ -7,10 +7,10 @@ export const CONFIG_URLS = {
 };
 export const CONFIG_TXT = {
   SITE_TITLE: 'International Women\'s Day',
-  TWITTER_HASHTAGS_URL: '#WTM2020 #WomenTechmakers #WTMBarcelona',
-  TICKETS_BUTTON_LABEL: 'Tickets Sold Out! | Entradas Agotadas!',
-  EVENT_DATE: 'Event Postponed New Date TBD | Evento Aplazado Nueva Fecha Pronto·',
-  VENUE_NAME: 'Hotel Novotel | Barcelona',
+  TWITTER_HASHTAGS_URL: '#WTM2022 #WomenTechmakers #WTMBarcelona',
+  TICKETS_BUTTON_LABEL: '',
+  EVENT_DATE: '',
+  VENUE_NAME: 'Barcelona',
   C4P_LABEL: 'C4P | Call for papers'
 };
 export const CONFIG_VISIBILITY = {
