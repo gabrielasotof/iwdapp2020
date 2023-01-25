@@ -12,7 +12,7 @@ export const CONFIG_TXT = {
   TWITTER_HASHTAGS_URL: '#WTM2023 #WomenTechmakers #WTMBarcelona',
   TICKETS_BUTTON_LABEL: 'MUY PRONTO | COMMING SOON',
   EVENT_DATE: 'Muy pronto anunciamos fecha| Date comming soon',
-  VENUE_NAME: '',
+  VENUE_NAME: ' ',
   C4P_LABEL: 'C4P | Call for papers',
   SPONSORS_DOSSIER_LABEL: 'Become a Sponsor'
 
