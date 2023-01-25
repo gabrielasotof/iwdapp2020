@@ -32,10 +32,16 @@
       font-style: italic;
     }
   }
+
+
   // hack button styles
+  span.caption__button {
+    margin: 0px 10px;
+  }
   .caption__button {
     margin-bottom: 10px;
   }
+
   .footer__span {
     margin-top: 5px;
     display: inline-block;

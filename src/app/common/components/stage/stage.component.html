@@ -7,7 +7,8 @@
               <span class="stage__txt">{{venue}}</span>
             </div>
             <div class="caption__button">
-                <a class="button__base button__base--red" [href]="getSafeTicketLink()" title="get free tickets">{{button_label}}</a>
+                <span class="caption__button"><a class="button__base button__base--green" [href]="getCallForPaperLink()" target="_blank" title="call for paper">{{call_for_paper_button_label}}</a> </span>
+                <span class="caption__button"><a class="button__base button__base--red" [href]="getSponsorDossierLink()" target="_blank" title="become a sponsor">{{sponsor_button_label}}</a> </span>
             </div>
             <span class="footer__span">Powered by</span><img src="assets/gdg.png" class="footer__logo" alt="Powered by GDG BCN" width="130" />
           </div>

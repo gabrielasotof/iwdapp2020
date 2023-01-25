@@ -21,6 +21,7 @@ export class AppComponent implements OnInit, OnDestroy {
   // label button
   tickets_button_label = CONFIG_TXT.TICKETS_BUTTON_LABEL;
   c4p_label = CONFIG_TXT.C4P_LABEL;
+  sponsors_dossier_label = CONFIG_TXT.SPONSORS_DOSSIER_LABEL;
   sponsors_dossier = CONFIG_URLS.SPONSORS_DOSSIER_URL;
   venue_url = CONFIG_URLS.VENUE_MAP_URL;
   twitter_hashtags = CONFIG_TXT.TWITTER_HASHTAGS_URL;
