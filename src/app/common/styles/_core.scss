@@ -3,12 +3,11 @@
 
 // All common styles
 body {
-  background-image: url('https://wtmbarcelona.com/assets/wtmbcn.png');
-  background-repeat:no-repeat;
-  background-size: contain;
+  background-image: url('/assets/IWD_2023.png');// url('https://wtmbarcelona.com/assets/wtmbcn.png');
+  background-repeat:repeat-y;
+  background-size: auto;
   background-position: top center;
-  background-color: $c-wtm-dark-grey;
-  background-blend-mode: color-dodge;
+  background-color: #fff;
   max-width: 100%;
   font-family: mat-font-family($custom-typography);
   font-weight: 300;

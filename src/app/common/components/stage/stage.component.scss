@@ -3,7 +3,7 @@
 
 .stage {
   &__base {
-    color: $c-white;
+    color: $c-wtm-dark-grey;
     margin-top: $safety-zone-s;
 
     @media (min-width: 600px) {
@@ -18,18 +18,30 @@
   &__hl {
     font-size: $font-size-m;
     font-weight: 700;
-    text-shadow: 2px 2px 2px $c-wtm-dark-grey;
+    padding: 0;
+    //text-shadow: 2px 2px 2px $c-wtm-dark-grey;
 
     @media (min-width: 500px) {
       font-size: $font-size-l;
     }
   }
+  &__h2 {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0;
+    //text-shadow: 2px 2px 2px $c-wtm-dark-grey;
+
+    @media (min-width: 500px) {
+      font-size: 30px;
+    }
+  }
   &__txt {
     font-size: 24px;
     line-height: 1.6;
-    text-shadow: 2px 2px 2px rgba(12,5,3,0.56);
+    padding: 0;
+    //text-shadow: 2px 2px 2px rgba(12,5,3,0.56);
     &.atomic-special--date {
-      font-style: italic;
+      //font-style: italic;
     }
   }
 
@@ -45,5 +57,9 @@
   .footer__span {
     margin-top: 5px;
     display: inline-block;
+  }
+  
+  .stage__description{
+
   }
 }

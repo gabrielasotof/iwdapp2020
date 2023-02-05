@@ -96,18 +96,24 @@
               </div>
             </mat-grid-list>
         </div>
-        <div class="teaser__wrapper" *ngIf="collection === 'organizers'">
+        <div class="teaser__wrapper organizers" *ngIf="collection === 'organizers'">
             <h2 class="teaser__hl">Organizers</h2>
-            <mat-grid-list [cols]="breakpointThree" rowHeight="1:1" (window:resize)="onResize($event)">
+            <mat-grid-list class="organizers-grid" [cols]="breakpointThree" rowHeight="1:1" (window:resize)="onResize($event)">
                 <div *ngFor="let item of data">
                     <mat-grid-tile>
                       <div class="teaser__image">
                         <div class="teaser__figure">
                           <img alt="logo {{item.pic}}" src="assets/organizers/{{item.pic}}.png" layout-fill/>
                         </div>
-                      </div>
-                      <div class="teaser__type {{item.type}}">
-                          <h3 class="teaser__hl atomic-visibility--hidden">{{item.name}}</h3>
+                        <span class="name">{{item.name}}</span>
+                        <span class="socialmedia">
+                          <a *ngIf="item.twitter != ''" href="{{item.twitter}}"  target="_blank">
+                            <img alt="twitter" src="assets/social/twitter-blue.png"/>
+                          </a>
+                          <a *ngIf="item.linkedin != ''"  href="{{item.linkedin}}"  target="_blank">
+                            <img alt="twitter" src="assets/social/linkedin-blue.png"/>
+                          </a>
+                        </span>
                       </div>
                     </mat-grid-tile>
                 </div>

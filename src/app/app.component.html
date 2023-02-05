@@ -16,6 +16,23 @@
   <div class="main__content">
     <section class="section__base first-section" *ngIf="show_intro">
       <app-textimage></app-textimage>
+
+      <section class="section__base cta">
+        <div class="atomic-container">
+          <div class="caption__base">
+            <p class="caption__txt">Tickets are limited! Don't miss them out! Stay tuned for availability</p>
+          </div>
+          <div class="caption__base">
+            <p class="caption__txt atomic-style--italic">Las entradas son limitadas ¡No te las pierdas! Mantente al
+              tanto de nuestras noticias, para enterarte cuando abramos la disponibilidad</p>
+          </div>
+          <!-- <div class="caption__button">
+            <a [href]="getSafeTicketLink()" title="get free tickets"
+              class="button__base button__base--red">{{tickets_button_label}}</a>
+          </div> -->
+        </div>
+      </section>
+
       <section class="section__base cta atomic-background--highlight">
             <div class="atomic-container">
                 <div class="caption__base">
@@ -26,41 +43,27 @@
                 </div>
             </div>
       </section>
+
       <div class="atomic-separator atomic-separator--intro"></div>
-        
-        <!-- <section class="section__base cta">
-          <div class="atomic-container">
-            <div class="caption__base">
-              <p class="caption__txt">Tickets are limited! Don't miss them out! Stay tuned for availability</p>
-            </div>
-            <div class="caption__base">
-              <p class="caption__txt atomic-style--italic">Las entradas son limitadas ¡No te las pierdas! Mantente al
-                tanto de nuestras noticias, para enterarte cuando abramos la disponibilidad</p>
-            </div>
-            <div class="caption__button">
-              <a [href]="getSafeTicketLink()" title="get free tickets"
-                class="button__base button__base--red">{{tickets_button_label}}</a>
-            </div>
+      
+      <section class="section__base cta atomic-background cta">
+        <div class="atomic-container">
+          <div class="caption__base">
+            <p class="caption__txt"><b>International Women’s Day is a completely free access event</b>, and the kind
+              support of our sponsors is vital to make it possible. This is why, we would like to invite you to review
+              our sponsorship plan</p>
           </div>
-        </section>-->
-        <section class="section__base cta atomic-background cta">
-          <div class="atomic-container">
-            <div class="caption__base">
-              <p class="caption__txt"><b>International Women’s Day is a completely free access event</b>, and the kind
-                support of our sponsors is vital to make it possible. This is why, we would like to invite you to review
-                our sponsorship plan</p>
-            </div>
-            <div class="caption__base">
-              <p class="caption__txt atomic-style--italic"><b>International Women’s Day es un evento completamente
-                  gratuito para los asistentes</b>, por lo que el apoyo de nuestros sponsors es vital para hacerlo
-                posible. Les invitamos a visitar nuestra presentación para sponsors <a
-                  [href]="getSafeSponsorsDossierLink()" target="_blank">haciendo click aqui</a></p>
-            </div>
-            <div class="caption__button">
-              <a [href]="getSafeSponsorsDossierLink()" target="_blank" class="button__base button__base--green">{{sponsors_dossier_label}}</a>
-            </div>
+          <div class="caption__base">
+            <p class="caption__txt atomic-style--italic"><b>International Women’s Day es un evento completamente
+                gratuito para los asistentes</b>, por lo que el apoyo de nuestros sponsors es vital para hacerlo
+              posible. Les invitamos a visitar nuestra presentación para sponsors <a
+                [href]="getSafeSponsorsDossierLink()" target="_blank">haciendo click aqui</a></p>
           </div>
-        </section> 
+          <div class="caption__button">
+            <a [href]="getSafeSponsorsDossierLink()" target="_blank" class="button__base button__base--green">{{sponsors_dossier_label}}</a>
+          </div>
+        </div>
+      </section> 
       
     </section>
     <!-- <section id="speakers" *ngIf="show_speakers"
@@ -79,15 +82,18 @@
         </div>
       </div>
       <app-teaserlist [type]="teaserType.Speaker"></app-teaserlist>
-    </section>
-    <section id="agenda" *ngIf="show_agenda"
+    </section> -->
+    
+    <!-- <section id="agenda" *ngIf="show_agenda"
       class="section__base agenda atomic-padding--none grid__base grid__base--right grid__base--nomobile">
       <app-agenda></app-agenda>
-    </section>
-    <section id="venue" *ngIf="show_venue" class="section__base atomic-padding--none">
+    </section> -->
+
+    <!-- <section id="venue" *ngIf="show_venue" class="section__base atomic-padding--none">
       <iframe [src]="getSafeVenueUrl()" width="100%" height="450" frameborder="0" style="border:0"
         allowfullscreen></iframe>
-    </section> -->
+    </section>  -->
+
     <!-- <section *ngIf="show_sponsors" id="sponsors"
       class="section__base sponsors atomic-padding--none grid__base atomic-grid--mobile">
       <div class="aside__base atomic-padding--small dark">
@@ -101,8 +107,8 @@
         </div>
       </div>
       <app-teaserlist [type]="teaserType.Sponsor"></app-teaserlist>
-    </section> -->
-    <!-- <section id="organizers" *ngIf="show_organizers"
+    </section>  -->
+    <section id="organizers" *ngIf="show_organizers"
       class="section__base organizers atomic-padding--none grid__base grid__base--right">
       <app-teaserlist [type]="teaserType.Organizer"></app-teaserlist>
       <div class="aside__base atomic-padding--small clear">
@@ -112,9 +118,11 @@
         <h2 class="aside__hl atomic-style--italic">¡Únete!</h2>
         <p class="aside__txt atomic-style--italic">Participa de una comunidad activa y vibrante, y se parte de nuestros
           eventos y meetups.</p>
-        <h2 class="aside__hl atomic-style--large atomic-hide">{{twitter_hastags}}</h2>
+        <div class="caption__button">
+          <a [href]="getSafeVolunteersLink()"  target="_blank" class="button__base button__base--red">{{volunteers_label}}</a>
+        </div>
       </div>
-    </section> -->
+    </section>
   </div>
 </main>
 <footer class="footer__base">
@@ -129,9 +137,9 @@
       <a class="footer__link" href="mailto:womentechmakersbcn@gmail.com"
         title="email us!">womentechmakersbcn@gmail.com</a>
     </div>
-    <div class="footer__disclaimer">
+    <!-- <div class="footer__disclaimer">
       <span class="footer__span">Powered by</span><img src="assets/gdg.png" class="footer__logo"
         alt="Powered by GDG BCN" width="130" />
-    </div>
+    </div> -->
   </div>
 </footer>

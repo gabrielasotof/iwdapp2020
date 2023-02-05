@@ -124,11 +124,14 @@
       }
     }
     &.organizers {
-      background-color: $c-wtm-yellow;
+     background-color: $c-wtm-light-green;
+     border-top: 3px solid #000;
+    
 
       .teaser {
         &__wrapper {
-          max-width: 600px;
+          max-width: 750px;
+          height: 100%;
         }
         &__hl {
           font-size: 36px;

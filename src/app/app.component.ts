@@ -21,11 +21,13 @@ export class AppComponent implements OnInit, OnDestroy {
   // label button
   tickets_button_label = CONFIG_TXT.TICKETS_BUTTON_LABEL;
   c4p_label = CONFIG_TXT.C4P_LABEL;
+  volunteers_label = CONFIG_TXT.VOLUNTEERS_LABEL;
   sponsors_dossier_label = CONFIG_TXT.SPONSORS_DOSSIER_LABEL;
   sponsors_dossier = CONFIG_URLS.SPONSORS_DOSSIER_URL;
   venue_url = CONFIG_URLS.VENUE_MAP_URL;
   twitter_hashtags = CONFIG_TXT.TWITTER_HASHTAGS_URL;
   c4p_url = CONFIG_URLS.C4P_URL;
+  volunteers_url = CONFIG_URLS.VOLUNTEERS_URL;
 
   // control block visibility
   show_intro = CONFIG_VISIBILITY.INTRO_BLOCK;
@@ -58,6 +60,10 @@ export class AppComponent implements OnInit, OnDestroy {
 
   getSafeVenueUrl(): any {
     return this.sanitizer.bypassSecurityTrustResourceUrl(this.venue_url);
+  }
+
+  getSafeVolunteersLink(): any {
+    return this.sanitizer.bypassSecurityTrustResourceUrl(this.volunteers_url);
   }
 
   ngOnInit() {

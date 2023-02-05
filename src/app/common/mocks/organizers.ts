@@ -1,63 +1,45 @@
 // organizers mock
 export const ORGANIZERS = [
   {
-    name: 'Davinia Garcia',
-    short: 'Davinia',
-    pic: 'davinia',
-    twitter: ''
+    name: 'Johanna Sanchez',
+    short: 'Johanna',
+    pic: 'johanna',
+    twitter: 'https://twitter.com/EllaQuimica',
+    linkedin: 'https://www.linkedin.com/in/johanna-sanchez-vallejo'
   },
   {
-    name: 'Veronica Lopez',
-    short: 'Veronica',
-    pic: 'veronica',
-    twitter: ''
+    name: 'Rosemarie Garcia',
+    short: 'rosemarie',
+    pic: 'rosemarie',
+    twitter: 'https://twitter.com/RoseSunshineG',
+    linkedin: 'https://www.linkedin.com/in/rosesunshine'
   },
   {
-    name: 'Elisa de Gregorio',
-    short: 'Elisa',
-    pic: 'elisa',
-    twitter: ''
+    name: 'Gabriela Soto',
+    short: 'gabriela',
+    pic: 'gabriela',
+    twitter: 'https://twitter.com/hablagaby_',
+    linkedin: 'https://www.linkedin.com/in/gabriela-soto-fuentes/'
   },
   {
-    name: 'Adela Tort',
-    short: 'Adela',
+    name: 'Adela Tort Salavert',
+    short: 'adela',
     pic: 'adela',
-    twitter: ''
+    twitter: 'https://twitter.com/AdelaTort',
+    linkedin: 'https://www.linkedin.com/in/adelatort/'
   },
   {
-    name: 'Judit Nieto',
-    short: 'Judit',
-    pic: 'judit',
-    twitter: ''
+    name: 'Lorena Bernárdez',
+    short: 'lorena',
+    pic: 'lorena',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/lorena-bernardez/'
   },
   {
-    name: 'Ilia Berlana',
-    short: 'Ilia',
-    pic: 'ilia',
-    twitter: ''
+    name: 'Lizzeth Quinteros',
+    short: 'lizz',
+    pic: 'lizz',
+    twitter: '',
+    linkedin_link: 'https://www.linkedin.com/in/lizzeth-quinteros-87662a13/'
   },
-  {
-    name: 'Elena Martinez',
-    short: 'Elena',
-    pic: 'elena',
-    twitter: ''
-  },
-  {
-    name: 'Anemari Fiser',
-    short: 'Anemari',
-    pic: 'anemari',
-    twitter: ''
-  },
-  {
-    name: 'Natalia Venditto',
-    short: 'Natalia',
-    pic: 'natalia',
-    twitter: ''
-  },
-  {
-    name: 'Cristina',
-    short: 'Cristina',
-    pic: 'cristina',
-    twitter: ''
-  }
 ];
