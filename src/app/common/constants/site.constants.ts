@@ -17,7 +17,6 @@ export const CONFIG_TXT = {
   C4P_LABEL: 'C4P | Call for papers',
   SPONSORS_DOSSIER_LABEL: 'Become a Sponsor',
   VOLUNTEERS_LABEL: 'lets do it'
-
 };
 export const CONFIG_VISIBILITY = {
   HEADER_BLOCK: true,
