@@ -94,9 +94,9 @@
         allowfullscreen></iframe>
     </section>  -->
 
-    <!-- <section *ngIf="show_sponsors" id="sponsors"
+    <section *ngIf="show_sponsors" id="sponsors"
       class="section__base sponsors atomic-padding--none grid__base atomic-grid--mobile">
-      <div class="aside__base atomic-padding--small dark">
+      <!-- <div class="aside__base atomic-padding--small dark">
         <div class="aside__wrapper">
           <h2 class="aside__hl">Meet our sponsors</h2>
           <p class="aside__txt">The following companies support our event and diversity integration in Barcelona.</p>
@@ -105,9 +105,9 @@
           <p class="aside__txt atomic-style--italic">Nuestros sponsors apoyan nuestro evento y la diversidad e
             integración, en Barcelona. ¡Gracias por hacerlo posible!</p>
         </div>
-      </div>
+      </div> -->
       <app-teaserlist [type]="teaserType.Sponsor"></app-teaserlist>
-    </section>  -->
+    </section> 
     <section id="organizers" *ngIf="show_organizers"
       class="section__base organizers atomic-padding--none grid__base grid__base--right">
       <app-teaserlist [type]="teaserType.Organizer"></app-teaserlist>

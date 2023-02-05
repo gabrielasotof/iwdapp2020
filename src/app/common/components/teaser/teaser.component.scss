@@ -13,8 +13,9 @@
     h2{
       padding-left:10px;
       padding-right:10px;
-      border-bottom: 1px solid $c-wtm-background-color-contrast;
+      border-bottom: 2px solid $c-wtm-background-color-contrast;
       margin-bottom: 30px;
+      // font-weight: 600;
     }
     &--hero {
       min-height: 400px;

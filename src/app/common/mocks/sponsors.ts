@@ -55,18 +55,6 @@ export const SPONSORS = [
     web: 'https://www.authentia.com'
   },
   {
-    name: 'CodelyTV',
-    logo: 'codelytv',
-    type: 'support',
-    web: 'https://codely.tv'
-  },
-  {
-    name: 'Joppy',
-    logo: 'joppy',
-    type: 'support',
-    web: 'https://www.joppy.me'
-  },
-  {
     name: 'Xing',
     logo: 'xing',
     type: 'silver',
@@ -97,33 +85,28 @@ export const SPONSORS = [
     web: 'http://www.gft.com/es'
   },
   {
-    name: 'Agile Spain',
-    logo: 'agilespain',
-    type: 'support',
-    web: ''
-  },
-  {
-    name: 'Devops Barcelona',
-    logo: 'devops',
-    type: 'support',
-    web: 'https://devops.barcelona/'
-  },
-  {
-    name: 'Women Who Code BCN',
-    logo: 'wwcode',
-    type: 'support',
-    web: 'https://www.womenwhocode.com/barcelona'
-  },
-  {
-    name: 'BCN Engineering',
-    logo: 'bcneng',
-    type: 'support',
-    web: 'https://bcneng.github.io/'
-  },
-  {
     name: 'We are Adaptive',
     logo: 'adaptive',
     type: 'silver',
     web: 'https://weareadaptive.com/'
-  }
+  },
+  {
+    name: 'Python España',
+    logo: '',
+    type: 'support',
+    web: 'https://es.python.org/'
+  },
+  {
+    name: 'Python España',
+    logo: 'python-es',
+    type: 'support',
+    web: 'https://es.python.org/'
+  },
+  {
+    name: 'Python España',
+    logo: '',
+    type: 'support',
+    web: 'https://es.python.org/'
+  },
+  
 ];
