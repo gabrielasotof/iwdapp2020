@@ -12,7 +12,7 @@ export const CONFIG_TXT = {
   SITE_TITLE: 'International Women\'s Day',
   TWITTER_HASHTAGS_URL: '#WTM2023 #WomenTechmakers #WTMBarcelona',
   TICKETS_BUTTON_LABEL: 'Muy pronto tickets disponibles| tickets availables coming soon',
-  EVENT_DATE: '25 de Mayo 2023 | May 25 2023',
+  EVENT_DATE: '25 de Marzo 2023 | March 25, 2023',
   VENUE_NAME: '',
   C4P_LABEL: 'C4P | Call for papers',
   SPONSORS_DOSSIER_LABEL: 'Become a Sponsor',

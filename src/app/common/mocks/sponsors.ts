@@ -92,21 +92,8 @@ export const SPONSORS = [
   },
   {
     name: 'Python España',
-    logo: '',
-    type: 'support',
-    web: 'https://es.python.org/'
-  },
-  {
-    name: 'Python España',
     logo: 'python-es',
     type: 'support',
     web: 'https://es.python.org/'
-  },
-  {
-    name: 'Python España',
-    logo: '',
-    type: 'support',
-    web: 'https://es.python.org/'
-  },
-  
+  },  
 ];
