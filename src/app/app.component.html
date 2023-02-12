@@ -36,10 +36,11 @@
       <section class="section__base cta atomic-background--highlight">
             <div class="atomic-container">
                 <div class="caption__base">
-                    <h2 class="textimage__hl">Apply now to our call for papers! | ¡Envía ya tu propuesta de charla!</h2>
+                    <h2 class="textimage__hl">Apply now to our call for papers! Applications open until February 15.</h2>
+                    <h2 class="textimage__hl"><i>¡Envía ya tu propuesta de charla! Postulaciones abiertas hasta el 15 de Febrero. </i></h2>
                 </div>
                 <div class="caption__button">
-                        <a [href]="getSafeC4PLink()"  target="_blank" class="button__base button__base--red">{{c4p_label}}</a>
+                        <a [href]="getSafeC4PLink()"  target="_blank" class="button__base button__base--green">{{c4p_label}}</a>
                 </div>
             </div>
       </section>
@@ -60,7 +61,7 @@
                 [href]="getSafeSponsorsDossierLink()" target="_blank">haciendo click aqui</a></p>
           </div>
           <div class="caption__button">
-            <a [href]="getSafeSponsorsDossierLink()" target="_blank" class="button__base button__base--green">{{sponsors_dossier_label}}</a>
+            <a [href]="getSafeSponsorsDossierLink()" target="_blank" class="button__base button__base--red">{{sponsors_dossier_label}}</a>
           </div>
         </div>
       </section> 
@@ -84,10 +85,10 @@
       <app-teaserlist [type]="teaserType.Speaker"></app-teaserlist>
     </section> -->
     
-    <!-- <section id="agenda" *ngIf="show_agenda"
+    <section id="agenda" *ngIf="show_agenda"
       class="section__base agenda atomic-padding--none grid__base grid__base--right grid__base--nomobile">
       <app-agenda></app-agenda>
-    </section> -->
+    </section>
 
     <!-- <section id="venue" *ngIf="show_venue" class="section__base atomic-padding--none">
       <iframe [src]="getSafeVenueUrl()" width="100%" height="450" frameborder="0" style="border:0"

@@ -1,29 +1,29 @@
 // agenda
 export const AGENDATWO_A = [
   {
-    session: 'GeoSpatial Data: Analysis and Modelling',
-    speaker: 'Shreya Agrawal',
-    time: '11:30 - 12:10',
-    room: 'Wallapop',
-    lang: 'English',
+    session: 'Time reserved for Talk #3',
+    speaker: 'Details  is to be announced',
+    time: '11:25 - 12:05',
+    room: '',
+    lang: '',
     range: 2,
     isWorkshop: false
   },
   {
-    session: 'From Java using REST to Kotlin using GraphQL: A use case',
-    speaker: 'Irene Michelle Lopez Carron',
-    time: '12:15 - 12:55',
-    room: 'Wallapop',
-    lang: 'English',
+    session: 'Time reserved for Talk #4',
+    speaker: 'Details  is to be announced',
+    time: '12:10 - 12:50',
+    room: '',
+    lang: '',
     range: 2,
     isWorkshop: false
   },
   {
-    session: 'The power of RxJS: Building Flappy Bird in Angular',
-    speaker: 'Estefanía García Gallardo',
-    time: '13:00 - 13:40',
-    room: 'Wallapop',
-    lang: 'English',
+    session: 'Time reserved for Talk #5',
+    speaker: 'Details  is to be announced',
+    time: '12:55 - 13:40',
+    room: '',
+    lang: '',
     range: 2,
     isWorkshop: false
   }
