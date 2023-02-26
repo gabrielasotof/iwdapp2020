@@ -17,31 +17,23 @@
     <section class="section__base first-section" *ngIf="show_intro">
       <app-textimage></app-textimage>
 
-      <section class="section__base cta">
-        <div class="atomic-container">
-          <div class="caption__base">
-            <p class="caption__txt">Tickets are limited! Don't miss them out! Stay tuned for availability</p>
-          </div>
-          <div class="caption__base">
-            <p class="caption__txt atomic-style--italic">Las entradas son limitadas ¡No te las pierdas! Mantente al
-              tanto de nuestras noticias, para enterarte cuando abramos la disponibilidad</p>
-          </div>
-          <!-- <div class="caption__button">
-            <a [href]="getSafeTicketLink()" title="get free tickets"
-              class="button__base button__base--red">{{tickets_button_label}}</a>
-          </div> -->
-        </div>
-      </section>
-
       <section class="section__base cta atomic-background--highlight">
             <div class="atomic-container">
-                <div class="caption__base">
+              <div class="caption__base">
+                <p class="caption__txt">Tickets are limited! Don't miss them out! Stay tuned for availability</p>
+              </div>
+              <br/>
+              <div class="caption__base">
+                <p class="caption__txt"><i>Las entradas son limitadas ¡No te las pierdas! Mantente al
+                  tanto de nuestras noticias, para enterarte cuando abramos la disponibilidad</i></p>
+              </div>
+                <!-- <div class="caption__base">
                     <h2 class="textimage__hl">Apply now to our call for papers! Applications open until February 15.</h2>
                     <h2 class="textimage__hl"><i>¡Envía ya tu propuesta de charla! Postulaciones abiertas hasta el 15 de Febrero. </i></h2>
-                </div>
-                <div class="caption__button">
+                </div> -->
+                <!-- <div class="caption__button">
                         <a [href]="getSafeC4PLink()"  target="_blank" class="button__base button__base--green">{{c4p_label}}</a>
-                </div>
+                </div> -->
             </div>
       </section>
 
@@ -54,6 +46,7 @@
               support of our sponsors is vital to make it possible. This is why, we would like to invite you to review
               our sponsorship plan</p>
           </div>
+          <br/>
           <div class="caption__base">
             <p class="caption__txt atomic-style--italic"><b>International Women’s Day es un evento completamente
                 gratuito para los asistentes</b>, por lo que el apoyo de nuestros sponsors es vital para hacerlo
