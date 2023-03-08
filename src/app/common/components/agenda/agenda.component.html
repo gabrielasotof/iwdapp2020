@@ -10,9 +10,9 @@
           <p class="agenda__label">Opening</p>
           <p class="agenda__label">9:00 - 9:15</p>
         </div>
-        <div class="agenda__break atomic-txtalign--center">
-          <p class="agenda__label">Welcome</p>
-          <p class="agenda__label">9:15 - 9:30</p>
+        <div class="agenda__welcome atomic-txtalign--center">
+          <p class="agenda__label">Welcome / Meet our sponsors</p>
+          <p class="agenda__label">9:15 - 9:40</p>
         </div>
         <div class="agenda__tracks">
           <div class="agenda__track agenda__track--one">
@@ -28,7 +28,7 @@
         </div>
         <div class="agenda__break atomic-txtalign--center">
           <p class="agenda__label">Coffee Break</p>
-          <p class="agenda__label">10:55 - 11:20</p>
+          <p class="agenda__label">11:15 - 11:40</p>
         </div>
         <div class="agenda__tracks">
             <div class="agenda__track agenda__track--one">
@@ -43,8 +43,32 @@
             </div>
         </div>
         <div class="agenda__break atomic-txtalign--center">
-            <p class="agenda__label">Closing</p>
-            <p class="agenda__label">13:45 - 14:00</p>
+          <p class="agenda__label">Lunch break</p>
+          <p class="agenda__label">14:00 - 15:00</p>
+        </div>
+        <div class="agenda__welcome atomic-txtalign--center">
+          <p class="agenda__label">Keynote / Meet our sponsors</p>
+          <p class="agenda__label">15:05 - 15:20</p>
+        </div>
+        <div class="agenda__tracks">
+          <div class="agenda__track agenda__track--one">
+            <div class="agenda__slotWrapper" *ngFor="let item of dataThree">
+                <div class="agenda__slot">
+                  <h3 class="agenda__slotHl">{{item.session}}</h3>
+                  <p class="agenda__speaker">{{item.speaker}}</p>
+                  <p class="agenda__time"><span class="agenda__timeSlot">{{item.time}}</span><span *ngIf="item.isWorkshop" class="agenda__sessionType">Workshop</span></p>
+                  <p class="agenda__language--tag">{{item.lang}}</p>
+                </div>
+              </div>
+          </div>
+      </div>
+        <div class="agenda__welcome atomic-txtalign--center">
+            <p class="agenda__label">Meet our sponsors / Closing </p>
+            <p class="agenda__label">16:55 - 17:30</p>
+        </div>
+        <div class="agenda__break atomic-txtalign--center">
+          <p class="agenda__label">Networking</p>
+          <p class="agenda__label">17:30 - 19:00</p>
         </div>
     </div>    
   </div>

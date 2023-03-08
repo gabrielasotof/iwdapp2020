@@ -9,6 +9,11 @@ $session-type-padding: 3px;
     width: 100%;
     height: auto;
     background-color: $c-wtm-light-grey;
+  
+  }
+  &__welcome {
+    background-color: #8a9bd2;
+    border: 3px solid $c-white;
   }
   &__break {
     background-color: $c-wtm-green;
