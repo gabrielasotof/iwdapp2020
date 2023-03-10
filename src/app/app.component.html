@@ -20,20 +20,16 @@
       <section class="section__base cta atomic-background--highlight">
             <div class="atomic-container">
               <div class="caption__base">
-                <p class="caption__txt">Tickets are limited! Don't miss them out! Stay tuned for availability</p>
+                <p class="caption__txt">Tickets are limited! Get yours for free now!</p>
               </div>
               <br/>
               <div class="caption__base">
-                <p class="caption__txt"><i>Las entradas son limitadas ¡No te las pierdas! Mantente al
-                  tanto de nuestras noticias, para enterarte cuando abramos la disponibilidad</i></p>
+                <p class="caption__txt"><i>Las entradas son limitadas ¡No te las pierdas! puedes adquirirlas gratis ahora</i></p>
               </div>
-                <!-- <div class="caption__base">
-                    <h2 class="textimage__hl">Apply now to our call for papers! Applications open until February 15.</h2>
-                    <h2 class="textimage__hl"><i>¡Envía ya tu propuesta de charla! Postulaciones abiertas hasta el 15 de Febrero. </i></h2>
-                </div> -->
-                <!-- <div class="caption__button">
-                        <a [href]="getSafeC4PLink()"  target="_blank" class="button__base button__base--green">{{c4p_label}}</a>
-                </div> -->
+                
+                <div class="caption__button">
+                        <a [href]="getSafeTicketLink()"  target="_blank" class="button__base button__base--green">{{tickets_button_label}}</a>
+                </div>
             </div>
       </section>
 
@@ -82,10 +78,10 @@
       <app-agenda></app-agenda>
     </section>
 
-    <!-- <section id="venue" *ngIf="show_venue" class="section__base atomic-padding--none">
+    <section id="venue" *ngIf="show_venue" class="section__base atomic-padding--none">
       <iframe [src]="getSafeVenueUrl()" width="100%" height="450" frameborder="0" style="border:0"
         allowfullscreen></iframe>
-    </section>  -->
+    </section> 
 
     <section *ngIf="show_sponsors" id="sponsors"
       class="section__base sponsors atomic-padding--none grid__base atomic-grid--mobile">
