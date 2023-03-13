@@ -23,6 +23,17 @@ export const SPEAKERS = [
     linkedin1: ''
   },
   {
+    name: 'Carmen Delgado',
+    session: 'How Open Source contribution programs benefit both mentors and participants',
+    lang: '',
+    bio: 'Carmen Delgado joined Eclipse Foundation as Adoptium Community Manager in October 2022 and is responsible for helping the Eclipse Adoptium working group members achieve their goals and objectives and being the bridge between their procedures and Eclipse Foundation processes and Staff. Carmen has a background in project, operations, and financial management in SMEs, non-profits, and start-ups from different industries: healthcare, Pharma, Fintech, and Tech. She also volunteers as a group manager and mentor at Step4ward, a mentoring program in Spain for women starting in the tech world',
+    summary: 'Abstract: Eclipse Adoptium is a top-level open source project under the Eclipse Foundation where Temurin and AQAvit are developed with assistance by ‘new to open source’ contributors under industry mentorship. In this session, we share our experience mentoring new contributors through programs such as Outreachy, Google Summer of Code, and CANOSP. We will survey these programs and share both challenges and success stories. There are some vivid examples demonstrating the advantages for both participants and the open source projects. All of these open source programs have similarities but also their own unique flavor, with variations in goals and term lengths. Outreachy provides paid internships to people subject to systemic bias and impacted by underrepresentation in the technical industry where they are living. Google Summer of Code focuses on bringing new contributors into open source software development. Canada Open-Source Projects (CANOSP) is an academic program that connects top students from Canadian universities to work on open-source projects. In all cases, the value of collaborating with new contributors who bring a diversity of experience and world view is the essence of open source. This talk gives practical tips on working with open source programs but also serves to enlighten others on the mutually beneficial reasons they should engage',
+    pic1: 'carmen',
+    pic2: '',
+    twitter1: '',
+    linkedin1: 'https://www.linkedin.com/in/cldelgadop/'
+  },  
+  {
     name: 'Emily Karungi',
     session: 'Perfect, the enemy of good. Taming perfectionism with Evolutionary design',
     lang: '',

@@ -40,6 +40,6 @@ export const ORGANIZERS = [
     short: 'lizz',
     pic: 'lizz',
     twitter: 'https://twitter.com/LizZ_Q',
-    linkedin_link: 'https://www.linkedin.com/in/lizzeth-quinteros-87662a13'
+    linkedin: 'https://www.linkedin.com/in/lizzeth-quinteros-87662a13/'
   },
 ];

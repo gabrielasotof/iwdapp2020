@@ -3,8 +3,20 @@ export const SPONSORS = [
   {
     name: 'Vueling',
     logo: 'vueling',
-    type: 'gold',
+    type: 'platinum',
     web: 'https://www.vueling.com'
+  },
+  {
+    name: 'Factorial',
+    logo: 'factorial',
+    type: 'platinum',
+    web: 'https://factorialhr.es/'
+  },
+  {
+    name: 'Plain Concepts',
+    logo: 'plain',
+    type: 'golden',
+    web: 'https://www.plainconcepts.com/'
   },
   {
     name: 'Python España',

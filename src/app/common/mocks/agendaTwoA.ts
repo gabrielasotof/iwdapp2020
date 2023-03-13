@@ -1,8 +1,8 @@
 // agenda
 export const AGENDATWO_A = [
   {
-    session: 'Time reserved for Talk',
-    speaker: 'Details  is to be announced',
+    session: 'How Open Source contribution programs benefit both mentors and participants',
+    speaker: 'Carmen Delgado',
     time: '11:45 - 12:25',
     room: '',
     lang: '',
