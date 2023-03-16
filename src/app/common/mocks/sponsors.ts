@@ -13,6 +13,18 @@ export const SPONSORS = [
     web: 'https://factorialhr.es/'
   },
   {
+    name: 'Zurich Delivery Center',
+    logo: 'zurich',
+    type: 'platinum',
+    web: 'https://bcntdc.zurich.com/en'
+  },
+  {
+    name: 'Eclipse Fundation',
+    logo: 'eclipse',
+    type: 'platinum',
+    web: 'https://www.eclipse.org/'
+  },
+  {
     name: 'Plain Concepts',
     logo: 'plain',
     type: 'golden',

@@ -5,7 +5,7 @@ export const AGENDAONE_A = [
     speaker: 'Garance Vallat',
     time: '9:45 - 10:25',
     room: '',
-    lang: '',
+    lang: 'English',
     range: 1,
     isWorkshop: false
   },
@@ -14,7 +14,7 @@ export const AGENDAONE_A = [
     speaker: 'Antonella Requena',
     time: '10:30 - 11:10',
     room: '',
-    lang: '',
+    lang: 'English',
     range: 1,
     isWorkshop: false
   }

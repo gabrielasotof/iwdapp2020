@@ -1,7 +1,7 @@
 // agenda
 export const AGENDATHREE_A = [
   {
-    session: 'How to succeed in a IT start up working only 4 days a week',
+    session: 'How to succeed an IT startup working only 4 days a week',
     speaker: 'Ana Jiménez Valbuena',
     time: '15:25 - 16:05',
     room: '',

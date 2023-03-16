@@ -5,7 +5,7 @@ export const AGENDATWO_A = [
     speaker: 'Carmen Delgado',
     time: '11:45 - 12:25',
     room: '',
-    lang: '',
+    lang: 'English',
     range: 2,
     isWorkshop: false
   },
@@ -14,7 +14,7 @@ export const AGENDATWO_A = [
     speaker: 'Emily Karungi',
     time: '12:30 - 13:10',
     room: '',
-    lang: '',
+    lang: 'English',
     range: 2,
     isWorkshop: false
   },
@@ -23,7 +23,7 @@ export const AGENDATWO_A = [
     speaker: 'Susana Romero Miguel',
     time: '13:15 - 13:55',
     room: '',
-    lang: '',
+    lang: 'Español',
     range: 2,
     isWorkshop: false
   }
