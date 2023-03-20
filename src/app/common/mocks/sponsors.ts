@@ -25,6 +25,19 @@ export const SPONSORS = [
     web: 'https://www.eclipse.org/'
   },
   {
+    name: 'Mango',
+    logo: 'mango',
+    type: 'platinum',
+    web: 'https://shop.mango.com/es'
+  },
+  {
+    name: 'Axa Partners',
+    logo: 'axa',
+    type: 'platinum',
+    web: 'https://www.axapartners.com/en'
+  },
+ 
+  {
     name: 'Plain Concepts',
     logo: 'plain',
     type: 'golden',
@@ -47,5 +60,11 @@ export const SPONSORS = [
     logo: 'gdg-barcelona',
     type: 'support',
     web: 'https://gdg.community.dev/gdg-barcelona/'
+  },  
+  {
+    name: 'Codely TV',
+    logo: 'codely',
+    type: 'support',
+    web: 'https://codely.com/'
   },  
 ];
