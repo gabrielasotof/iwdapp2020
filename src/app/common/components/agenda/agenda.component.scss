@@ -9,9 +9,14 @@ $session-type-padding: 3px;
     width: 100%;
     height: auto;
     background-color: $c-wtm-light-grey;
+  
+  }
+  &__welcome {
+    background-color: #8a9bd2;
+    border: 3px solid $c-white;
   }
   &__break {
-    background-color: $c-wtm-background-color;
+    background-color: $c-wtm-green;
     border: 3px solid $c-white;
   }
   &__hl {
@@ -36,18 +41,18 @@ $session-type-padding: 3px;
     display: flex;
     flex-direction: column;
 
-    @media (min-width: 600px) {
-      width: 50%;
-    }
+    // @media (min-width: 600px) {
+    //   width: 50%;
+    // }
   }
   &__sponsor {
     width: 100%;
-    @media (min-width: 600px) {
-      width: 50%;
-    }
+    // @media (min-width: 600px) {
+    //   width: 50%;
+    // }
     &--one,
     &--three {
-      background-color: $c-wtm-green;
+      background-color: $c-wtm-dark-blue;
       color: $c-white;
     }
     &--two {

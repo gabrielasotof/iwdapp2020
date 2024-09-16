@@ -5,10 +5,10 @@
             <div class="teaser__extended--left teaser__listItem">
               <div class="teaser__image">
                 <div class="teaser__figure">
-                  <img alt="{{item.pic1}} speaker at IWD Barcelona 2020" src="assets/speakers/{{item.pic1}}.png" layout-fill/>
+                  <img alt="{{item.pic1}} speaker at IWD Barcelona 2023" src="assets/speakers/{{item.pic1}}.png" layout-fill/>
                 </div>
                 <div *ngIf="item.pic2 && item.pic2 !== ''" class="teaser__figure">
-                  <img alt="{{item.pic2}} speaker at IWD Barcelona 2020" src="assets/speakers/{{item.pic2}}.png" layout-fill/>
+                  <img alt="{{item.pic2}} speaker at IWD Barcelona 2023" src="assets/speakers/{{item.pic2}}.png" layout-fill/>
                 </div>
               </div>
               <div class="teaser__type">
@@ -35,10 +35,10 @@
           </div>
         </div>
         <div class="teaser__wrapper" *ngIf="collection === 'sponsors'">
-            <h2 class="teaser__hl">Golden Sponsors</h2>
+            <h2 class="teaser__hl">Platinum Sponsors</h2>
             <mat-grid-list [cols]="breakpointTwo" rowHeight="2:1" (window:resize)="onResize($event)">
                 <div *ngFor="let item of data">
-                    <mat-grid-tile *ngIf="item.type === 'gold'">
+                    <mat-grid-tile *ngIf="item.type === 'platinum'">
                       <div class="teaser__image">
                         <div class="teaser__figure">
                           <a href="{{item.web}}" title=""><img alt="logo {{item.logo}}" src="assets/logos/{{item.logo}}.png" layout-fill/></a>
@@ -50,10 +50,10 @@
                     </mat-grid-tile>
                 </div>
             </mat-grid-list>
-            <h2 class="teaser__hl">Silver Sponsors</h2>
+            <h2 class="teaser__hl">Golden Sponsors</h2>
             <mat-grid-list [cols]="breakpointOne" rowHeight="2:1" (window:resize)="onResize($event)">
               <div *ngFor="let item of data">
-                  <mat-grid-tile *ngIf="item.type === 'silver'">
+                  <mat-grid-tile *ngIf="item.type === 'golden'">
                     <div class="teaser__image">
                       <div class="teaser__figure">
                         <a href="{{item.web}}" title=""><img alt="logo {{item.logo}}" src="assets/logos/{{item.logo}}.png" layout-fill/></a>
@@ -65,28 +65,13 @@
                   </mat-grid-tile>
               </div>
             </mat-grid-list>
-<!--             <h2 class="teaser__hl">Bronze Sponsors</h2>
-            <mat-grid-list [cols]="breakpointOne" rowHeight="2:1" (window:resize)="onResize($event)">
-              <div *ngFor="let item of data">
-                  <mat-grid-tile *ngIf="item.type === 'bronze'">
-                    <div class="teaser__image">
-                      <div class="teaser__figure">
-                        <a href="{{item.web}}" title=""><img alt="logo {{item.logo}}" src="assets/logos/{{item.logo}}.png" layout-fill/></a>
-                      </div>
-                    </div>
-                    <div class="teaser__type {{item.type}}">
-                        <h3 class="teaser__hl atomic-visibility--hidden">{{item.name}}</h3>
-                    </div>
-                  </mat-grid-tile>
-              </div>
-            </mat-grid-list> -->
             <h2 class="teaser__hl">Supporting</h2>
-            <mat-grid-list [cols]="breakpointOne" rowHeight="2:1" (window:resize)="onResize($event)">
+            <mat-grid-list [cols]="breakpointTwo" rowHeight="2:1" (window:resize)="onResize($event)">
               <div *ngFor="let item of data">
                   <mat-grid-tile *ngIf="item.type === 'support'">
                     <div class="teaser__image">
                       <div class="teaser__figure">
-                        <a href="{{item.web}}" title=""><img alt="logo {{item.logo}}" src="assets/logos/{{item.logo}}.png" layout-fill/></a>
+                        <a href="{{item.web}}" title=""><img *ngIf="item.logo != ''" alt="logo {{item.logo}}" src="assets/logos/{{item.logo}}.png" layout-fill/></a>
                       </div>
                     </div>
                     <div class="teaser__type {{item.type}}">
@@ -96,18 +81,25 @@
               </div>
             </mat-grid-list>
         </div>
-        <div class="teaser__wrapper" *ngIf="collection === 'organizers'">
+        <div class="teaser__wrapper organizers" *ngIf="collection === 'organizers'">
             <h2 class="teaser__hl">Organizers</h2>
-            <mat-grid-list [cols]="breakpointThree" rowHeight="1:1" (window:resize)="onResize($event)">
+            <mat-grid-list class="organizers-grid" [cols]="breakpointThree" rowHeight="1:1" (window:resize)="onResize($event)">
                 <div *ngFor="let item of data">
                     <mat-grid-tile>
                       <div class="teaser__image">
                         <div class="teaser__figure">
                           <img alt="logo {{item.pic}}" src="assets/organizers/{{item.pic}}.png" layout-fill/>
                         </div>
-                      </div>
-                      <div class="teaser__type {{item.type}}">
-                          <h3 class="teaser__hl atomic-visibility--hidden">{{item.name}}</h3>
+                        <span class="name">{{item.name}}</span>
+                        <span class="socialmedia">
+                          <a *ngIf="item.linkedin != ''"  href="{{item.linkedin}}"  target="_blank">
+                            <img alt="linkedin" src="assets/social/linkedin-blue.png"/>
+                          </a>
+                          
+                          <a *ngIf="item.twitter != ''" href="{{item.twitter}}"  target="_blank">
+                            <img alt="twitter" src="assets/social/twitter-blue.png"/>
+                          </a>
+                        </span>
                       </div>
                     </mat-grid-tile>
                 </div>

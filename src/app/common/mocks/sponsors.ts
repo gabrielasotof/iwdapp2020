@@ -1,129 +1,70 @@
 // sponsors mock
 export const SPONSORS = [
   {
-    name: 'Wefox Group',
-    logo: 'wefox',
-    type: 'silver',
-    web: 'https://www.wefoxgroup.com/'
-  },
-  {
-    name: 'Mano Mano',
-    logo: 'manomano',
-    type: 'gold',
-    web: 'https://www.manomano.es/'
-  },
-  {
-    name: 'Wallapop',
-    logo: 'wallapop',
-    type: 'gold',
-    web: 'https://es.wallapop.com'
-  },
-  {
-    name: 'Adevinta Spain',
-    logo: 'adevinta',
-    type: 'gold',
-    web: 'https://www.adevinta.com/es/spain/'
-  },
-  {
-    name: 'New Relic',
-    logo: 'newrelic',
-    type: 'silver',
-    web: 'https://newrelic.com'
-  },
-  {
-    name: 'ThoughtWorks',
-    logo: 'thoughtworks',
-    type: 'silver',
-    web: 'https://www.thoughtworks.com'
-  },
-  {
     name: 'Vueling',
     logo: 'vueling',
-    type: 'silver',
+    type: 'platinum',
     web: 'https://www.vueling.com'
   },
   {
-    name: 'HolaLuz',
-    logo: 'holaluz',
-    type: 'silver',
-    web: 'https://www.holaluz.com'
+    name: 'Factorial',
+    logo: 'factorial',
+    type: 'platinum',
+    web: 'https://factorialhr.es/'
   },
   {
-    name: 'Autentia',
-    logo: 'autentia',
-    type: 'gold',
-    web: 'https://www.authentia.com'
+    name: 'Zurich Delivery Center',
+    logo: 'zurich',
+    type: 'platinum',
+    web: 'https://bcntdc.zurich.com/en'
   },
   {
-    name: 'CodelyTV',
-    logo: 'codelytv',
+    name: 'Eclipse Fundation',
+    logo: 'eclipse',
+    type: 'platinum',
+    web: 'https://www.eclipse.org/'
+  },
+  {
+    name: 'Mango',
+    logo: 'mango',
+    type: 'platinum',
+    web: 'https://shop.mango.com/es'
+  },
+  {
+    name: 'Axa Partners',
+    logo: 'axa',
+    type: 'platinum',
+    web: 'https://www.axapartners.com/en'
+  },
+ 
+  {
+    name: 'Plain Concepts',
+    logo: 'plain',
+    type: 'golden',
+    web: 'https://www.plainconcepts.com/'
+  },
+  {
+    name: 'Python España',
+    logo: 'python-es',
     type: 'support',
-    web: 'https://codely.tv'
-  },
+    web: 'https://es.python.org/'
+  },  
   {
-    name: 'Joppy',
-    logo: 'joppy',
-    type: 'support',
-    web: 'https://www.joppy.me'
-  },
-  {
-    name: 'Xing',
-    logo: 'xing',
-    type: 'silver',
-    web: 'https://xing.com'
-  },
-  {
-    name: 'Netcentric',
-    logo: 'netcentric',
-    type: 'silver',
-    web: 'https://www.netcentric.biz'
-  },
-  {
-    name: 'Marfeel',
-    logo: 'marfeel',
-    type: 'silver',
-    web: 'https://www.marfeel.com'
-  },
-  {
-    name: 'Typeform',
-    logo: 'typeform',
-    type: 'silver',
-    web: 'https://www.typeform.com'
-  },
-  {
-    name: 'GTF',
-    logo: 'gtf',
-    type: 'silver',
-    web: 'http://www.gft.com/es'
-  },
-  {
-    name: 'Agile Spain',
-    logo: 'agilespain',
+    name: 'Google',
+    logo: 'google-logo',
     type: 'support',
     web: ''
-  },
+  },  
   {
-    name: 'Devops Barcelona',
-    logo: 'devops',
+    name: ' GDG Barcelona',
+    logo: 'gdg-barcelona',
     type: 'support',
-    web: 'https://devops.barcelona/'
-  },
+    web: 'https://gdg.community.dev/gdg-barcelona/'
+  },  
   {
-    name: 'Women Who Code BCN',
-    logo: 'wwcode',
+    name: 'Codely TV',
+    logo: 'codely',
     type: 'support',
-    web: 'https://www.womenwhocode.com/barcelona'
-  },
-  {
-    name: 'BCN Engineering',
-    logo: 'bcneng',
-    type: 'support',
-    web: 'https://bcneng.github.io/'
-  },
-  {
-    name: 'We are Adaptive',
-    logo: 'adaptive',
-    type: 'silver',
-    web: 'https://weareadaptive.com/'
-  }
+    web: 'https://codely.com/'
+  },  
 ];

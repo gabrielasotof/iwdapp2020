@@ -1,29 +1,29 @@
 // agenda
 export const AGENDATWO_A = [
   {
-    session: 'GeoSpatial Data: Analysis and Modelling',
-    speaker: 'Shreya Agrawal',
-    time: '11:30 - 12:10',
-    room: 'Wallapop',
+    session: 'How Open Source contribution programs benefit both mentors and participants',
+    speaker: 'Carmen Delgado',
+    time: '11:45 - 12:25',
+    room: '',
     lang: 'English',
     range: 2,
     isWorkshop: false
   },
   {
-    session: 'From Java using REST to Kotlin using GraphQL: A use case',
-    speaker: 'Irene Michelle Lopez Carron',
-    time: '12:15 - 12:55',
-    room: 'Wallapop',
+    session: 'Perfect, the enemy of good. Taming perfectionism with Evolutionary design',
+    speaker: 'Emily Karungi',
+    time: '12:30 - 13:10',
+    room: '',
     lang: 'English',
     range: 2,
     isWorkshop: false
   },
   {
-    session: 'The power of RxJS: Building Flappy Bird in Angular',
-    speaker: 'Estefanía García Gallardo',
-    time: '13:00 - 13:40',
-    room: 'Wallapop',
-    lang: 'English',
+    session: 'Big Data, big opportunities to improve safety in the workplace?',
+    speaker: 'Susana Romero Miguel',
+    time: '13:15 - 13:55',
+    room: '',
+    lang: 'Español',
     range: 2,
     isWorkshop: false
   }

@@ -3,41 +3,74 @@
 
 .stage {
   &__base {
-    color: $c-white;
+    color: $c-wtm-dark-grey;
     margin-top: $safety-zone-s;
 
     @media (min-width: 600px) {
       margin-top: $safety-zone-l+20px;
     }
+
     // hack GDG logo in stage
     .footer__logo {
       margin: -6px 0;
       display: inline-block;
     }
+   
   }
+  &__description{
+    @media (max-width: 500px) {
+      padding-top: 60px;
+    }
+  }
+
   &__hl {
-    font-size: $font-size-m;
+    font-size: 30px;
     font-weight: 700;
-    text-shadow: 2px 2px 2px $c-wtm-dark-grey;
+    background-color: $c-white;
 
     @media (min-width: 500px) {
-      font-size: $font-size-l;
+      font-size: 50px;
+      background-color: transparent;
+    }
+  }
+  &__h2 {
+    font-size: 30px;
+    font-weight: 600;
+    background-color: $c-white;
+
+    @media (min-width: 500px) {
+      font-size: 40px;
+      background-color: transparent;
     }
   }
   &__txt {
     font-size: 24px;
     line-height: 1.6;
-    text-shadow: 2px 2px 2px rgba(12,5,3,0.56);
-    &.atomic-special--date {
-      font-style: italic;
+    display: block;
+    background-color: $c-white;
+
+    @media (min-width: 500px) {
+      font-size: 30px;
+      
+      background-color: transparent;
     }
   }
+
+
   // hack button styles
+  span.caption__button {
+    margin: 0px 10px;
+  }
   .caption__button {
     margin-bottom: 10px;
   }
+
   .footer__span {
     margin-top: 5px;
     display: inline-block;
+  }
+  
+  .stage__description{
+
   }
 }

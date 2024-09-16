@@ -1,19 +1,19 @@
 // agenda
 export const AGENDAONE_A = [
   {
-    session: 'Everything you don´t need to know about Git',
+    session: 'Fight back against imposter syndrome',
     speaker: 'Garance Vallat',
-    time: '9:30 - 10:10',
-    room: 'Wallapop',
+    time: '9:45 - 10:25',
+    room: '',
     lang: 'English',
     range: 1,
     isWorkshop: false
   },
   {
-    session: 'Intelligent Tutoring Systems in Archaeology',
-    speaker: 'Laia Subirats',
-    time: '10:15 - 10:55',
-    room: 'Wallapop',
+    session: 'How to debug JS and not console.log(die) trying',
+    speaker: 'Antonella Requena',
+    time: '10:30 - 11:10',
+    room: '',
     lang: 'English',
     range: 1,
     isWorkshop: false

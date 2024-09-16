@@ -2,14 +2,18 @@
     <div class="stage__base">
         <div class="stage__description">
             <h3 class="stage__hl">{{title}}</h3>
+            <h3 class="stage__h2">#DareToBe</h3>
             <div class="stage__infoWrapper">
               <span class="stage__txt atomic-special--date">{{date}} </span>
               <span class="stage__txt">{{venue}}</span>
             </div>
             <div class="caption__button">
-                <a class="button__base button__base--red" [href]="getSafeTicketLink()" title="get free tickets">{{button_label}}</a>
+              <span class="caption__button"><a class="button__base button__base--green" [href]="getTicketsLink()" target="_blank" title="Tickets">{{tickets_button_label}}</a> </span>
+          </div>
+            <div class="caption__button">
+                <span class="caption__button"><a class="button__base button__base--red" [href]="getSponsorDossierLink()" target="_blank" title="become a sponsor">{{sponsor_button_label}}</a> </span>
             </div>
-            <span class="footer__span">Powered by</span><img src="assets/gdg.png" class="footer__logo" alt="Powered by GDG BCN" width="130" />
+            <!-- <span class="footer__span">Powered by</span><img src="assets/gdg.png" class="footer__logo" alt="Powered by GDG BCN" width="130" /> -->
           </div>
     </div>    
   </section>

@@ -37,16 +37,34 @@
           padding: 0 10px;
         }
       }
+      .aside__base {
+        color: #fff;
+        background-color: $c-wtm-light-blue;
+        margin-bottom: 40px;
+        .atomic-container {
+          @media(min-width: 675px) {
+            text-align: center;
+          }
+        }
+        .atomic-style--italic{
+          color: #fff;
+        }
+      }
     }
     &.speakers {
       padding-top: 0;
       background-color: $c-wtm-medium-grey;
 
       .aside__base {
+        color: #fff;
+        background-color: $c-wtm-green;
         .atomic-container {
           @media(min-width: 675px) {
             text-align: center;
           }
+        }
+        .atomic-style--italic{
+          color: #fff;
         }
       }
 
@@ -124,11 +142,14 @@
       }
     }
     &.organizers {
-      background-color: $c-wtm-yellow;
+     background-color: $c-wtm-light-green;
+     border-top: 3px solid #000;
+    
 
       .teaser {
         &__wrapper {
-          max-width: 600px;
+          max-width: 750px;
+          height: 100%;
         }
         &__hl {
           font-size: 36px;

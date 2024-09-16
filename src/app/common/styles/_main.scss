@@ -14,6 +14,9 @@ $max-logo-width-smallmobile: 255px;
     height: $safety-zone-l;
     z-index: 1;
     top: 0;
+    @media(max-width: 600px) {
+      height: $safety-zone-m;
+    }
   }
   &__logo {
     max-width: $max-logo-width;
